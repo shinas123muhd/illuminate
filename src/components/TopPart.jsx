@@ -30,11 +30,11 @@ const TopPart = () => {
 
                         </div>
                         <div className="absolute inset-0 top-2/4 flex flex-col mt-2 gap-10 text-white justify-center items-center text-center w-full" >
-                            <h1 className="text-5xl font-bold">NIMNA</h1>
-                            <div className="w-3/5 text-3xl font-semibold ">
+                            <h1 className="text-4xl font-bold">NIMNA</h1>
+                            <div className="w-3/5 text-2xl font-semibold ">
                                 DEVELOPER COMPANY NAME
                             </div>
-                            <h1 className="text-7xl font-bold ">Guest</h1>
+                            <h1 className="text-6xl font-bold ">Guest</h1>
                         </div>
                         
                     </div>
