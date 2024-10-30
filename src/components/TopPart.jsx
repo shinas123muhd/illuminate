@@ -29,9 +29,9 @@ const TopPart = () => {
                         </div>
 
                         </div>
-                        <div className="absolute inset-0 top-2/4 flex flex-col gap-10 text-white justify-center items-center text-center w-full" >
+                        <div className="absolute inset-0 top-2/4 flex flex-col mt-2 gap-10 text-white justify-center items-center text-center w-full" >
                             <h1 className="text-5xl font-bold">NIMNA</h1>
-                            <div className="w-3/5 text-4xl font-semibold ">
+                            <div className="w-3/5 text-3xl font-semibold ">
                                 DEVELOPER COMPANY NAME
                             </div>
                             <h1 className="text-7xl font-bold ">Guest</h1>
@@ -40,7 +40,7 @@ const TopPart = () => {
                     </div>
                 </div>
                 <div>
-                <div className="h-full  relative">
+                <div className="h-full ">
                 <img src={banner2} alt="banner1" className='h-full w-full object-cover'/>
                 </div>
                 </div>
