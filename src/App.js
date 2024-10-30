@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import industryapps from './assets/industryapps.jpg'
+import map from './assets/map.jpg'
+import rsa from './assets/rsa.jpg'
+import  cybrosys from  './assets/cybrosystech.jpg'
+import sacrosys from './assets/sacrosys.png'
+import scanntek from './assets/scanntek-logo.png'
+import wriox from './assets/wriox.png'
+import banner1 from './assets/topleft.jpg'
+import TopPart from './components/TopPart';
+import BottomPart from './components/BottomPart';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <TopPart/>
+        <BottomPart/>
     </div>
   );
 }
