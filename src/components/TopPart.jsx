@@ -20,7 +20,7 @@ const TopPart = () => {
                             </div>
                         </div>
                         <div className='absolute flex flex-col items-end text-white w-full top-44 px-5 font-semibold'>
-                            <h1>29/10/2022</h1>
+                            <h1>09/11/2024</h1>
                             <h1>SATURDAY</h1>
                         </div>
                         <div className=' absolute inset-0 flex flex-col gap-10 justify-center text-white items-center w-full '>
