@@ -23,13 +23,13 @@ const TopPart = () => {
                             <h1>09/11/2024</h1>
                             <h1>SATURDAY</h1>
                         </div>
-                        <div className=' absolute inset-0 flex flex-col gap-10 justify-center text-white items-center w-full '>
+                        <div className=' absolute inset-0 flex flex-col top-48 gap-10 justify-center text-white items-center w-full '>
                         <div>
-                            <img src={qrcode} alt="QR Code" className="h-40 w-40" />
+                            <img src={qrcode} alt="QR Code" className="h-40 w-40 object-contain" />
                         </div>
 
                         
-                        <div className="absolute inset-0 top-2/4 flex flex-col mt-2 gap-10 text-white justify-center items-center text-center w-full" >
+                        <div className=" flex flex-col mt-2 gap-10  text-white justify-center items-center text-center w-full" >
                             <h1 className="text-4xl font-bold">NIMNA</h1>
                             <div className="w-2/5 text-2xl font-semibold ">
                                 DEVELOPER COMPANY NAME
