@@ -111,7 +111,7 @@ const UsersTable = () => {
         <div  className='grid grid-cols-2 items-center justify-start'>
             <div>
             <h1 className="text-2xl font-medium">
-              Registered Users Table
+              Registered Users
             </h1>
           </div>
           <div>
@@ -138,7 +138,7 @@ const UsersTable = () => {
             loading ? (<div className="flex justify-center items-center mt-10">
                 <FadeLoader color="#000" loading={loading} size={50} /> 
             </div>):(
-          <div className="w-full overflow-x-scroll md:overflow-auto  2xl:max-w-none mt-2 rounded-xl">
+          <div className="w-full overflow-x-scroll md:overflow-auto  2xl:max-w-none mt-2 ">
             <table className="table-auto overflow-scroll md:overflow-auto w-full text-left font-inter border">
               <thead className="rounded-lg text-base text-white font-semibold w-full">
                 <tr className="bg-[#222E3A]/[6%] text-black">
@@ -176,28 +176,28 @@ const UsersTable = () => {
                     }`}
                     key={index}
                   >
-                    <td className="py-2 px-3 font-normal text-base border-t whitespace-nowrap">
+                    <td className="py-5 px-3 font-normal text-base border-t whitespace-nowrap">
                       {row.RegistrationID}
                     </td>
-                    <td className="py-2 px-3 font-normal text-base border-t whitespace-nowrap">
+                    <td className="py-5 px-3 font-normal text-base border-t whitespace-nowrap">
                       {row.ParticipantName}
                     </td>
-                    <td className="py-2 px-3 font-normal  text-base border-t whitespace-nowrap">
+                    <td className="py-5 px-3 font-normal  text-base border-t whitespace-nowrap">
                       {row.Designation}
                     </td>
-                    <td className="py-2 px-3 text-base font-normal border-t whitespace-nowrap">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.CollegeName}
                     </td>
-                    <td className="py-2 px-3 text-base font-normal border-t whitespace-nowrap">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.ContactNo}
                     </td>
-                    <td className="py-2 px-3 text-base font-normal border-t whitespace-nowrap">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.EmailID}
                     </td>
-                    <td className="py-2 px-3 text-base font-normal border-t whitespace-nowrap">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.RegistrationDate}
                     </td>
-                    <td className="py-2 px-3  text-base font-normal border-t whitespace-nowrap">
+                    <td className="py-5 px-3  text-base font-normal border-t whitespace-nowrap">
                       {row.FoodType}
                     </td>
                   </tr>
