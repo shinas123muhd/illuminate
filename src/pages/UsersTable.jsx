@@ -125,7 +125,7 @@ const UsersTable = () => {
             </div>
             <input type="search" id="default-search" className="block w-full p-4 ps-12 text-sm focus:outline-none text-gray-900 border border-gray-300 rounded-full bg-gray-50 dark:border-gray-500  "  
                             value={searchQuery}
-                            placeholder="Search by name, email, or college"
+                            placeholder="Search by name or college"
                             onChange={handleSearch}
                              required />
             
