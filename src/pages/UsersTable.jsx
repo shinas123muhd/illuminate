@@ -105,7 +105,7 @@ const UsersTable = () => {
       
       }, [data, rowsLimit,currentPage]);
   return (
-    <div className='font-montserrat px-3'>
+    <div className='font-montserrat'>
       <div className="min-h-screen h-full bg-white flex  justify-center pt-10 pb-14 ">
         <div className="w-full  px-2">
         <div  className='grid grid-cols-2 items-center justify-start'>
@@ -176,28 +176,28 @@ const UsersTable = () => {
                     }`}
                     key={index}
                   >
-                    <td className="py-5 px-3 font-normal text-base border-t ">
+                    <td className="py-5 px-3 font-normal text-base border-t whitespace-nowrap">
                       {row.RegistrationID}
                     </td>
-                    <td className="py-5 px-3 font-normal text-base border-t ">
+                    <td className="py-5 px-3 font-normal text-base border-t whitespace-nowrap">
                       {row.ParticipantName}
                     </td>
-                    <td className="py-5 px-3 font-normal  text-base border-t ">
+                    <td className="py-5 px-3 font-normal  text-base border-t whitespace-nowrap">
                       {row.Designation}
                     </td>
-                    <td className="py-5 px-3 text-base font-normal border-t ">
+                    <td className="py-5 px-3 text-base font-normal border-t w-72 whitespace-normal">
                       {row.CollegeName}
                     </td>
-                    <td className="py-5 px-3 text-base font-normal border-t ">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.ContactNo}
                     </td>
-                    <td className="py-5 px-3 text-base font-normal border-t ">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.EmailID}
                     </td>
-                    <td className="py-5 px-3 text-base font-normal border-t ">
+                    <td className="py-5 px-3 text-base font-normal border-t whitespace-nowrap">
                       {row.RegistrationDate}
                     </td>
-                    <td className="py-5 px-3  text-base font-normal border-t  text-end ">
+                    <td className="py-5 px-3  text-base font-normal border-t whitespace-nowrap">
                       {row.FoodType}
                     </td>
                   </tr>
